@@ -1,0 +1,297 @@
+.main-visual{
+  background: url('../img/background.jpg') no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  float: left;
+}
+
+.logo a{
+  display: block;
+}
+
+.nav{
+  float: right;
+  margin-top: 66px;
+}
+
+.nav-item{
+  float: left;
+}
+
+.nav-item a{
+  margin-left: 60px;
+  color: #636363;
+  font-family: MyriadPro;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.nav-item a:hover {
+  border-bottom: 1px solid #cccccc;
+}
+
+.nav-item-active{
+  border-bottom: 1px solid #cccccc;
+}
+
+.bnr{
+  width: 598px;
+  margin-top: 22px;
+  padding-bottom: 85px;  
+}
+
+.bnr-text{
+  padding: 55px 0;
+  padding-left: 70px;
+  border: 5px solid #ebebeb;
+}
+
+.bnr-text h2{
+  width: 360px;
+  line-height: 40px;
+}
+
+.bnr-text p{
+  width: 410px;
+  line-height: 22px;
+  margin-top: 28px;
+  font-size: 14.28px;
+  opacity: 60%;
+}
+
+.book{
+  padding:80px 0;
+}
+
+.book-block{
+  width: 100%;
+}
+
+.book-img{
+  float: left;
+}
+
+.book-text{
+  float: right;
+  width: 416px;
+}
+
+.book-para{
+  line-height: 27.2px;
+  padding: 50px 0;
+}
+
+.book-para p:nth-child(2n){
+  padding-top: 37px;
+}
+
+
+.line{
+  position: relative;
+  text-align: center;
+}
+
+.ling-img{
+  display: inline;
+}
+
+.line-img::before{
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  width: 40%;
+  content: "";
+  border-top: 2px solid #000;
+}
+
+.line-img::after{
+  position: absolute;
+  top: 50%;
+  right: 60px;
+  width: 40%;
+  content: "";
+  border-top: 2px solid #000;
+}
+
+.menu{
+  margin-top: 40px;
+  margin-bottom: 75px;
+}
+
+.menu-header{
+  text-align: center;
+}
+
+.menu-block{
+  width: 100%;
+  margin-top: 80px;
+}
+
+.menu-item{
+  float: left;
+  width: 50%;
+  margin-bottom: 45px;
+}
+
+.menu-img{
+  float: left;
+}
+
+.menu-text{
+  float: left;
+  margin-left: 30px;
+}
+
+.menu-text p{
+  width: 370px;
+  line-height: 30.15px;
+  padding-top: 27px;
+}
+
+.menu-btn{
+  text-align: center;
+}
+
+.chefs{
+  background: url('../img/background02.jpg') no-repeat;
+  background-size: cover;
+}
+
+.chefs-header{
+  padding: 40px 0;
+  text-align: center;
+}
+
+.chefs-block{
+  padding-bottom: 45px;
+}
+
+.chefs-item{
+  float: left;
+  width: 375px;
+}
+
+.chefs-item:not(:last-child){
+  margin-right: 75px;
+}
+
+.chefs-name{
+  padding: 39px 0;
+}
+
+.chefs-name span{
+  font-family: JuliusSansOne;
+  font-size: 20px;
+}
+
+.chefs-text{
+  text-align: center;
+}
+
+.chefs-text p{
+  width: 340px;
+  line-height: 25.46px;
+  margin: 0 auto;
+}
+
+.blogs{
+  background: url('../img/background03.jpg') no-repeat;
+  background-size: cover;
+}
+
+.blogs-block{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.blogs-bnr{
+  padding-top: 105px;
+}
+
+.blogs h3{
+  padding-bottom: 43px ;
+  text-align: center;
+}
+
+.blogs-img{
+  position: relative;
+  width: 375px;
+}
+
+.blogs-item{
+  float: left;
+  padding-bottom: 40px;
+}
+
+.blogs-item:not(:last-child){
+  margin-right: 75px;
+}
+
+.blogs-item h5{
+  width: 290px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blogs-text{
+  position: absolute;
+  top: 50%;
+  width: inherit;
+  margin: 0 auto;
+  background-color: #636363;
+  transform: translateY(-50%);
+  opacity: 70%;
+}
+
+.blogs-btn{
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.blogs-btn-left , .blogs-btn-right{
+  padding: 5px 45px ;
+  background-color: #363636;
+  color: #fff;
+  font-size: 28px;
+}
+
+.blogs-btn-left{
+  margin-right: 30px;
+}
+
+.blogs-btn-left:hover, .blogs-btn-right:hover , .blogs-btn-active{
+  opacity: 30%;
+}
+
+.footer{
+  padding-top: 40px;
+  background-color: #2b2a2a;
+  text-align: center;
+}
+
+.footer-text{
+  width: 380px;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 35px 0 40px 0;
+  color: #fff;
+}
+
+.copyright{
+  padding: 30px 0;
+  background-color: #252525;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+

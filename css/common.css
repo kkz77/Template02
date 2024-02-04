@@ -1,0 +1,72 @@
+@font-face {
+  font-family: arial;
+  src: url('../fonts/arial.ttf');
+}
+
+@font-face {
+  font-family: JuliusSansOne;
+  src: url('../fonts/JuliusSansOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: MyriadPro;
+  src: url('../fonts/MyriadPro-Regular.otf');
+}
+
+body{
+  max-width: 1400px;
+ }
+ 
+ .container{
+   width: 1281px;
+   margin: 0 auto;
+ }
+ 
+ .clearfix{
+   display: table;
+   clear: both;
+   content: '';
+ }
+
+h2{
+  font-family: JuliusSansOne;
+  font-size: 32.84px;
+}
+
+h3{
+  font-family: JuliusSansOne;
+  font-size: 35px;
+}
+
+h4{
+  font-family: JuliusSansOne;
+  font-size: 28px;
+}
+
+h5{
+  color: #ffffff;
+  font-family: JuliusSansOne;
+  font-size: 24px;
+}
+
+p{
+  font-family: arial;
+  font-size: 16px;
+}
+
+
+.btn{
+  display: inline-block;
+  padding: 20px 66px;
+  background: #363636;
+  color: #fff;
+  font-family: JuliusSansOne;
+  letter-spacing: 3px;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  border: 1px solid #363636;
+  background: #fff;
+  color: #363636;
+}
